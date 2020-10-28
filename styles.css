@@ -4,33 +4,33 @@
   box-sizing: border-box;
 }
 .main-wrapper {
-  max-width: 1600px;
+  max-width: 1920px;
   margin: 0 auto;
 }
 .section {
   width: 100%;
+  margin: 0 auto;
 }
-
 .watchcontainer {
-  background-image: url('./bgk-middle.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 100%;
+  background-image: url( './bgk-middle.png');
+  width:100%;
   height: 550px;
   display: flex;
-  align-items: center;
   justify-content: space-around;
-}
-.watchbox {
-
+  align-items: center;
+  background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   margin: 0 auto;
 }
 .logolink {
   display: flex;
   justify-content: space-around;
   padding-top: 5px;
-  padding-bottom: 5px;
   margin-bottom: 20px;
-  background-color: tomato;
+}
 
+.linktext {
+  font-family: 'Roboto', sans-serif;
+  color: white;
 }
