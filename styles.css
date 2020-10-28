@@ -65,6 +65,7 @@ nav {
   display: flex;
   justify-content: center;
   background-color: white;
+  padding: 2rem 0;
 }
 .section6-container {
   width: 80%;
@@ -75,6 +76,7 @@ nav {
 .form-container {
   display: flex;
   width: 80%;
+  height: 510px;
 }
 .form-container h2 {
   font-family: 'Playfair Display', serif;
@@ -104,6 +106,7 @@ textarea {
   font-family: 'Hammersmith One', sans-serif;
   background-color: white;
   color: #11e2d3;
+  cursor: pointer;
 }
 .form-container .submit-button:hover {
   background-color: #11e2d3;
@@ -111,8 +114,23 @@ textarea {
 }
 .clients-container {
   width: 50%;
+  height: 510px;
 }
 .clients-container h2 {
   font-family: 'Playfair Display', serif;
   text-transform: uppercase;
+  font-size: 22px;
+}
+.clients-container .clients-logos-grid {
+  display: grid;
+  gap: 0 3rem;
+  width: 70%;
+  height: 100%;
+  grid-template: repeat(5, 1fr) / repeat(2, 1fr);
+  height: 80%;
+}
+.clients-container .clients-logos-grid .client-logo {
+  width: 100%;
+  margin-top: 1rem;
+  align-self: center;
 }
