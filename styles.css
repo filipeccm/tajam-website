@@ -3,12 +3,102 @@
    padding: 0;
    box-sizing: border-box;
 }
+
+:root {
+   --light-blue: #52c3c0;
+}
+
+body {
+   font-family: sans-serif;
+}
+
 .main-wrapper {
    max-width: 1920px;
    margin: 0 auto;
-   background-color: green;
 }
+
+/*General: obsolete?*/
 .section {
    height: 500px;
-   background-color: #000000;
+}
+
+/*Dimensions, BG, Color*/
+.section1 {
+   height: 100vh;
+   background-image: url('./bgk-header.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   color: #fff;
+   display: flex;
+   align-items: center;
+}
+
+/*further positioning*/
+.a-section-inner {
+   width: 50%;
+   margin: 0 auto;
+}
+
+/*Section-Content organization*/
+.header-section {
+   text-align: center;
+}
+
+.header-section h1 {
+   font-size: 2rem;
+   text-transform: capitalize;
+   margin-bottom: 1rem;
+}
+
+.separator2 {
+   height: 2px;
+   width: 60px;
+   border-radius: 3px;
+   margin: 0 auto;
+   background-color: var(--light-blue);
+}
+
+.header-section p {
+   margin-top: 1rem;
+}
+
+.a-button {
+   display: inline-block;
+   margin-top: 28px;
+   padding: 15px;
+   border: 2px solid var(--light-blue);
+   border-radius: 3px;
+   color: var(--light-blue);
+   text-transform: uppercase;
+   text-decoration: none;
+}
+
+/*Section 2*/
+.section2 {
+   height: 500px;
+   display: flex;
+   align-items: center;
+}
+
+.ourstory-section {
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+}
+
+.logo-container {
+   grid-column: 2/4;
+}
+
+.text-container {
+   grid-column: 6/13;
+}
+
+.text-container h2 {
+   text-transform: uppercase;
+   margin-bottom: 1rem;
+}
+
+.text-container p:last-child {
+   margin-bottom: 1rem;
 }
