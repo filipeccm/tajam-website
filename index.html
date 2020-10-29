@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@700&family=Roboto:wght@100;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <!-- 
@@ -14,18 +18,23 @@
   <body>
     <div class="main-wrapper">
       <header>
-        <logo></logo>
-        <nav>
-          <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Expertise</li>
-            <li>Teams</li>
-            <li>Works</li>
-            <li>People Say</li>
-            <li>Contact</li>
-          </ul>
-        </nav>
+        <div class="header-container">
+          <logo>
+            <embed src="./svg/logo.svg" alt="tajam-logo" />
+            <h1>Tajam</h1>
+          </logo>
+          <nav>
+            <ul class="nav-bar">
+              <li>Home</li>
+              <li>About</li>
+              <li>Expertise</li>
+              <li>Teams</li>
+              <li>Works</li>
+              <li>People Say</li>
+              <li>Contact</li>
+            </ul>
+          </nav>
+        </div>
       </header>
       <main>
         <section class="section section1"></section>
@@ -33,7 +42,66 @@
         <section class="section section3"></section>
         <section class="section section4"></section>
         <section class="section section5"></section>
-        <section class="section section6"></section>
+        <section class="section section6">
+          <div class="section6-container">
+            <div class="form-container">
+              <form>
+                <h2>Give us a good news</h2>
+                <input
+                  type="text"
+                  name="name"
+                  maxlength="50"
+                  placeholder="Name"
+                />
+                <input
+                  type="email"
+                  name="email"
+                  maxlength="50"
+                  placeholder="Email"
+                />
+                <input
+                  type="text"
+                  name="subject"
+                  maxlength="50"
+                  placeholder="Subject"
+                />
+                <input
+                  type=""
+                  name="subject"
+                  maxlength="50"
+                  placeholder="Subject"
+                />
+                <textarea
+                  name="message"
+                  rows="10"
+                  placeholder="Your Message"
+                ></textarea>
+                <button class="submit-button" type="submit">Submit</button>
+              </form>
+            </div>
+            <div class="clients-container">
+              <h2>Our happy clients</h2>
+              <div class="clients-logos-grid">
+                <embed class="client-logo" src="./svg/Zara_Logo.svg" />
+                <embed
+                  class="client-logo"
+                  src="./svg/Logo_of_Mango_(new).svg"
+                />
+                <embed
+                  class="client-logo"
+                  src="./svg/1280px-Barneys_New_York_Logo.svg"
+                />
+                <embed class="client-logo" src="./svg/1280px-Gucci_Logo.svg" />
+                <embed class="client-logo" src="./svg/Calvin_klein_logo.svg" />
+                <embed class="client-logo" src="./svg/1280px-Logo_NIKE.svg" />
+                <embed class="client-logo" src="./svg/Converse_logo.svg" />
+                <embed class="client-logo" src="./svg/Puma_Logo.svg" />
+                <embed class="client-logo" src="./svg/1280px-Levi's_logo.svg" />
+                <embed class="client-logo" src="./svg/Billabong.svg" />
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
       <footer></footer>
     </div>
