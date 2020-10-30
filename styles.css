@@ -274,6 +274,70 @@ footer {
   font-weight: bold;
   text-align: end;
 }
+/* SECTION 5 */
+.section5 .team-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url('bgk-header.png');
+  background-position: center;
+  background-size: cover;
+  padding: 3rem 0;
+  color: white;
+  text-align: center;
+}
+.section5 .team-content {
+  margin-bottom: 1rem;
+}
+.section5 .team-content h2 {
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+.section5 .team-container .separator2 {
+  margin: 1rem auto 3rem;
+  background-color: white;
+}
+.section5 .team-container .team-members-grid {
+  display: grid;
+  align-self: center;
+  width: 60%;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  margin-bottom: 3rem;
+}
+.section5 .team-container .team-members-grid .team-member {
+  height: 300px;
+  border: 1px solid white;
+}
+.section5 .team-container .team-members-grid .team-member {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  border: 1px solid white;
+}
+.section5 .team-container .team-members-grid .team-member .team-member-avatar {
+  width: 100%;
+  background-color: white;
+  height: 75%;
+}
+.section5
+  .team-container
+  .team-members-grid
+  .team-member
+  .team-member-description {
+  display: flex;
+  height: 25%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.team-member-description p:first-child {
+  font-weight: 800;
+  margin-bottom: 0.3rem;
+}
 .section.section6 {
   display: flex;
   justify-content: center;
