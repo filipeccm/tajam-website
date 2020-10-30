@@ -47,7 +47,7 @@ logo h1 {
 }
 nav {
    width: 70%;
-}
+}   
 .nav-bar {
    display: flex;
    width: 100%;
@@ -347,4 +347,28 @@ textarea {
    width: 100%;
    margin-top: 1rem;
    align-self: center;
+}
+
+.watchcontainer {
+  background-image: url('./bgk-middle.png');
+  width:100%;
+  height: 550px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   margin: 0 auto;
+}
+.logolink {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5px;
+  margin-bottom: 20px;
+}
+
+.linktext {
+  font-family: 'Roboto', sans-serif;
+  color: white;
 }
