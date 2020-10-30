@@ -275,7 +275,7 @@ footer {
   text-align: end;
 }
 /* SECTION 5 */
-.section5 .team-container {
+.team-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -286,19 +286,19 @@ footer {
   color: white;
   text-align: center;
 }
-.section5 .team-content {
+.team-content {
   margin-bottom: 1rem;
 }
-.section5 .team-content h2 {
+.team-content h2 {
   font-family: 'Playfair Display', serif;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
 }
-.section5 .team-container .separator2 {
+.team-container .separator2 {
   margin: 1rem auto 3rem;
   background-color: white;
 }
-.section5 .team-container .team-members-grid {
+.team-members-grid {
   display: grid;
   align-self: center;
   width: 60%;
@@ -306,26 +306,18 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   margin-bottom: 3rem;
 }
-.section5 .team-container .team-members-grid .team-member {
-  height: 300px;
-  border: 1px solid white;
-}
-.section5 .team-container .team-members-grid .team-member {
+.team-member {
   display: flex;
   flex-direction: column;
   height: 300px;
   border: 1px solid white;
 }
-.section5 .team-container .team-members-grid .team-member .team-member-avatar {
+.team-member-avatar {
   width: 100%;
   background-color: white;
   height: 75%;
 }
-.section5
-  .team-container
-  .team-members-grid
-  .team-member
-  .team-member-description {
+.team-member-description {
   display: flex;
   height: 25%;
   flex-direction: column;
@@ -334,8 +326,7 @@ footer {
   text-transform: uppercase;
   font-size: 13px;
 }
-.team-member-description p:first-child {
-  font-weight: 800;
+.team-member-description h3 {
   margin-bottom: 0.3rem;
 }
 .section.section6 {
