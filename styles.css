@@ -156,6 +156,135 @@ nav {
   margin-bottom: 1rem;
 }
 
+
+/*section 4 start */
+
+.sec4container {
+  height: 755px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly; 
+}
+.titelsectioncontainer {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.sec4headingline {
+  font-family: var(--heading-font);
+  text-transform: uppercase;
+} 
+.sec4seperator {
+  height: 2px;
+  width: 40px;
+  border-radius: 3px;
+  margin: 0 auto;
+  background-color: grey;
+}
+
+.sec4contentcontainer {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  margin: 0 auto;
+}
+.sec4row1 {
+   height: 50%;
+   width: 100%;
+   display: flex;
+   text-align: center;
+
+   
+ }
+ .sec4row2 {
+   height: 50%;
+   width: 100%;
+   display: flex;
+   text-align: center;
+
+ }
+ 
+.sec4row1 > div {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   
+ }
+.sec4row2 > div {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   
+}
+ 
+ .sec4box1 {
+   width: 33%;
+   height: 100%;
+   border-bottom: 1px solid #ebebeb;
+   text-align: center;
+ }
+ 
+ .sec4box2 {
+   width: 34%;
+   height: 100%;
+   border-left: 1px solid #ebebeb;
+   border-right: 1px solid #ebebeb;
+   border-bottom: 1px solid #ebebeb;
+   text-align: center;
+ }
+ 
+ .sec4box3 {
+   width: 33%;
+   height: 100%;
+   border-bottom: 1px solid #ebebeb;
+   text-align: center;
+ }
+ 
+ .sec4box4 {
+   width: 33%;
+   height: 100%;
+   text-align: center;
+ }
+ 
+ .sec4box5 {
+   width: 34%;
+   height: 100%;
+   border-left: 1px solid #ebebeb;
+   border-right: 1px solid #ebebeb;
+   text-align: center;
+ }
+ 
+ .sec4box6 {
+   width: 33%;
+   height: 100%;
+   text-align: center;
+ }
+.sec4logocontainer {
+   width: 80px;
+   height: 70px;
+   margin-top: 25px;
+}
+
+.sec4boxtext {
+  margin-bottom: 20px;
+  font-size: 10pt;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.sec4container h5 {
+   text-transform: uppercase;
+}
+
+/*section 4 end*/
+
+
 /*Footer*/
 footer {
   height: 390px;
